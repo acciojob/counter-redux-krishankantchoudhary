@@ -13,8 +13,8 @@ const App = () => {
         {/* <h2>Redux Counter</h2> */}
         <h1>{count}</h1>
 
-        <button onClick={()=>dispatch(increment())}>Increment</button>
-        <button onClick={()=>dispatch(decrement())}>Decrement</button>
+        <button onClick={()=>dispatch(increment())}>increment</button>
+        <button onClick={()=>dispatch(decrement())}>decrement</button>
        
     </div>
   )
